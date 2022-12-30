@@ -25,7 +25,7 @@ int main() {
             all = function(str, size);
 
             std::cout << "Длина слова " << " " << str << " " << "равна: " << str.length() << std::endl;
-        } while (all != size);
+        } while (true);
     }
     catch (const std::runtime_error error) {
         std::cout << error.what() << std::endl;

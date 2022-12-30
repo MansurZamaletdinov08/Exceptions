@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1340c109-3c1d-4db9-a7fa-51fdcf5ecbc1}</ProjectGuid>
-    <RootNamespace>ExceptionsConstructors</RootNamespace>
+    <ProjectGuid>{d762a6c6-5cca-41d0-bfd6-aa6e55f5e1fe}</ProjectGuid>
+    <RootNamespace>Test</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,15 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Exception.cpp" />
-    <ClCompile Include="ExceptionsConstructors.cpp" />
     <ClCompile Include="Figure.cpp" />
     <ClCompile Include="Print_info.cpp" />
+    <ClCompile Include="Test.cpp" />
+    <ClCompile Include="Traingle.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Exception.h" />
     <ClInclude Include="Figure.h" />
     <ClInclude Include="Print_info.h" />
+    <ClInclude Include="Traingle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

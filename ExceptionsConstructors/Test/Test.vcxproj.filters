@@ -15,24 +15,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ExceptionsConstructors.cpp">
+    <ClCompile Include="Test.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="Figure.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Print_info.cpp">
+    <ClCompile Include="Traingle.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Exception.cpp">
+    <ClCompile Include="Print_info.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Exception.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
     <ClInclude Include="Figure.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="Exception.h">
+    <ClInclude Include="Traingle.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
     <ClInclude Include="Print_info.h">
