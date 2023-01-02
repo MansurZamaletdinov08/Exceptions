@@ -2,8 +2,7 @@
 #include <exception>
 #include <string>
 
-
-int function(std::string str, int forbidden_length) {
+void function(std::string str, int forbidden_length) {
     if (str.length() == forbidden_length) {
         throw std::runtime_error("Вы ввели слово запретной длины! До свидания");
     }
@@ -22,7 +21,7 @@ int main() {
         do {
             std::cout << "Введите слово: ";
             std::cin >> str;
-            all = function(str, size);
+            function(str, size);
 
             std::cout << "Длина слова " << " " << str << " " << "равна: " << str.length() << std::endl;
         } while (true);

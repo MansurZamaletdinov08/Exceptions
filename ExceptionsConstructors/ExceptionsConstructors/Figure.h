@@ -11,4 +11,5 @@ protected:
 public:
 	virtual bool check();
 	virtual void print_info();
+	Figure();
 };

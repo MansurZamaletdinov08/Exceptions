@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d762a6c6-5cca-41d0-bfd6-aa6e55f5e1fe}</ProjectGuid>
-    <RootNamespace>Test</RootNamespace>
+    <ProjectGuid>{f5ab93d4-5cf2-447a-934d-6db7ac954d7d}</ProjectGuid>
+    <RootNamespace>ExceptionsConstructors</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,15 +127,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="EquilateralTraingle.cpp" />
+    <ClCompile Include="ExceptionsConstructors.cpp" />
     <ClCompile Include="Figure.cpp" />
+    <ClCompile Include="IsoscelesTraingle.cpp" />
+    <ClCompile Include="Parallelogram.cpp" />
     <ClCompile Include="Print_info.cpp" />
-    <ClCompile Include="Test.cpp" />
+    <ClCompile Include="Quadrilateral.cpp" />
+    <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="Rectangle.h" />
+    <ClCompile Include="RectangularTraingle.cpp" />
+    <ClCompile Include="Rhomb.cpp" />
+    <ClCompile Include="Square.cpp" />
     <ClCompile Include="Traingle.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="EquilateralTriangle.h" />
     <ClInclude Include="Exception.h" />
     <ClInclude Include="Figure.h" />
+    <ClInclude Include="IsoscelesTriangle.h" />
+    <ClInclude Include="Parallelogram.h" />
     <ClInclude Include="Print_info.h" />
+    <ClInclude Include="Quadrilateral.h" />
+    <ClInclude Include="RectangularTriangle.h" />
+    <ClInclude Include="Rhomb.h" />
+    <ClInclude Include="Square.h" />
     <ClInclude Include="Traingle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

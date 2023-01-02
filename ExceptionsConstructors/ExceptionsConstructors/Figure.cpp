@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Figure.h"
+#include "Exception.h"
 
 bool Figure::check() {
 	if (F == 0) {
@@ -7,6 +8,13 @@ bool Figure::check() {
 	}
 	else {
 		return false;
+	}
+}
+
+
+Figure::Figure() {
+	if (F != 0) {
+		throw Exception("Количество сторон фигуры не равно 0");
 	}
 }
 
